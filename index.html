@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daneline Opticals | Premium Eyewear & Eye Care</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+    
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+    <div class="logo-icon">
+        <img src="daneline-images/logo%202.jpg"
+             alt="Daneline Opticals Logo"
+             class="logo-img">
+    </div>
+
+    <span class="logo-text">
+        Daneline<span>Opticals</span>
+    </span>
+</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#booking">Book Now</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1>Your Vision <span>Our Focus</span></h1>
+                <p>Premium eyewear and professional eye care services in Pretoria and Tembisa. Discover designer frames, blue light protection, and comprehensive eye examinations.</p>
+                <div class="hero-buttons">
+                    <a href="#booking" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </a>
+                    <a href="#products" class="btn btn-secondary">
+                        <i class="fas fa-glasses"></i> View Collection
+                    </a>
+                </div>
+            </div>
+            <div class="hero-images fade-in">
+                <img src="daneline-images/L%20Ramakatsa.jpeg" alt="Prada Glasses" class="hero-img hero-img-1">
+                
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-star" style="color: var(--accent-purple);"></i>
+                    <span>Designer Brands</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-shield-alt" style="color: var(--accent-green);"></i>
+                    <span>Medical Aid &amp; Cash Accepted</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-image fade-in">
+                <img src="daneline-images/about2.jpeg" alt="Daneline Opticals Collection" class="about-img-main">
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div>Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div>Designer Brands</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content fade-in">
+                <h3>Professional Eye Care with Style</h3>
+                <p>At Daneline Opticals, we believe that clear vision should never compromise on style. Our expert optometrists provide comprehensive eye examinations using state-of-the-art equipment, while our curated collection of designer frames ensures you look as good as you see.</p>
+                <p>With locations in both Pretoria and Tembisa, we make premium eye care accessible to everyone. We accept all major medical aids and offer flexible payment options including our popular "Get Now, Pay Later" plan.</p>
+                
+                <ul class="features-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Certified Optometrists</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Latest Eye Testing Technology</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Wide Range of Designer Frames</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <span>Blue Light Protection Specialists</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header fade-in">
+            <h2>Our Services</h2>
+            <p>Comprehensive eye care solutions tailored to your needs. From routine check-ups to specialized treatments, we've got your eyes covered.</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>Comprehensive Eye Tests</h3>
+                <p>Thorough eye examinations using advanced diagnostic equipment to assess your vision health and detect any potential issues early.</p>
+               
+            </div>
+
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <i class="fas fa-glasses"></i>
+                </div>
+                <h3>Prescription Spectacles</h3>
+                <p>Custom-fitted prescription glasses with lenses tailored to your exact vision requirements. Wide range of frames available.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <h3>Designer Sunglasses</h3>
+                <p>Protect your eyes in style with our collection of premium designer sunglasses featuring UV400 protection.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <i class="fas fa-child"></i>
+                </div>
+                <h3>Kids Blue Light Glasses</h3>
+                <p>Specialized blue light blocking glasses designed to protect children's eyes from digital screen exposure. Starting from R499.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <i class="fas fa-glasses"></i>
+                    <i class="fas fa-contact-lens"></i>
+                </div>
+                <h3>Contact Lenses</h3>
+                <p>Professional contact lens fitting and supply. We offer daily, monthly, and specialized lenses for all vision types.</p>
+            </div>
+
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Traffic Certificates</h3>
+                <p>Official eye testing for driver's license applications and renewals. Quick certification process available.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    
+    <section class="products" id="products">
+        <div class="section-header fade-in">
+            <h2>Featured Collection</h2>
+            <p>Discover our handpicked selection of premium eyewear from world-renowned designers.</p>
+        </div>
+
+    <div class="products-filter fade-in">
+    <button class="filter-btn active" onclick="filterProducts(event,'all')">All</button>
+    <button class="filter-btn" onclick="filterProducts(event,'gucci')">Gucci</button>
+    <button class="filter-btn" onclick="filterProducts(event,'prada')">Prada</button>
+    <button class="filter-btn" onclick="filterProducts(event,'guess')">Guess</button>
+    <button class="filter-btn" onclick="filterProducts(event,'rayban')">Ray-Ban</button>
+    <button class="filter-btn" onclick="filterProducts(event,'fendi')">Fendi</button>
+    <button class="filter-btn" onclick="filterProducts(event,'felicia')">Felicia</button>
+    <button class="filter-btn" onclick="filterProducts(event,'roseheir')">Roseheir</button>
+</div>
+<div class="collection-note">
+    <i class="fas fa-glasses"></i>
+    All frames are available with prescription lenses and professional fitting.
+</div>
+        <div class="products-grid" id="productsGrid">
+            <!-- Product Cards -->
+            <div class="product-card fade-in" data-category="gucci">
+                <div class="product-image">
+                    <img src="daneline-images/gucci.jpeg" alt="Gucci Frames">
+                    <span class="product-badge">New</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Gucci</div>
+                    <h3 class="product-name">Classic Black Frames</h3>
+                    <div class="product-price">Premium Collection</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="prada">
+                <div class="product-image">
+                    <img src="daneline-images/prada.jpeg" alt="Prada Frames">
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Prada</div>
+                    <h3 class="product-name">Navy Blue Elegance</h3>
+                    <div class="product-price">Luxury Series</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="rayban">
+                <div class="product-image">
+                    <img src="daneline-images/rayban3.jpeg" alt="Ray-Ban Frames">
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Ray-Ban</div>
+                    <h3 class="product-name">Classic Black</h3>
+                    <div class="product-price">Iconic Collection</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="guess">
+                <div class="product-image">
+                    <img src="daneline-images/guess.jpeg" alt="Guess Frames">
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Guess</div>
+                    <h3 class="product-name">Round Metal Frame</h3>
+                    <div class="product-price">Trendsetter Series</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="guess">
+                <div class="product-image">
+                    <img src="daneline-images/guess2.jpeg" alt="Guess Pink Frames">
+                    <span class="product-badge">Popular</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Guess</div>
+                    <h3 class="product-name">Pink Tortoise Shell</h3>
+                    <div class="product-price">Ladies Collection</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="fendi">
+                <div class="product-image">
+                    <img src="daneline-images/fendi.jpeg" alt="Fendi Sunglasses">
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Fendi</div>
+                    <h3 class="product-name">Oversized Sunglasses</h3>
+                    <div class="product-price">Designer Shades</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="felicia">
+                <div class="product-image">
+                    <img src="daneline-images/muimui2.jpeg" alt="Felicia Eyewear">
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Felicia Eyewear</div>
+                    <h3 class="product-name">Handmade Acetate</h3>
+                    <div class="product-price">Artisan Collection</div>
+                </div>
+            </div>
+
+            <div class="product-card fade-in" data-category="roseheir">
+                <div class="product-image">
+                    <img src="daneline-images/roseheir.jpeg" alt="Roseheir Eyewear">
+                </div>
+                <div class="product-info">
+                    <div class="product-brand">Roseheir</div>
+                    <h3 class="product-name">Modern Classics</h3>
+                    <div class="product-price">Contemporary Line</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Medical Aid Section -->
+    <div class="medical-badge">
+    ✓ Medical Aid Claims Processed In-Store
+</div>
+    
+<section class="medical-aid">
+    <div class="medical-container">
+        <h2>We Accept Cash And All Major Medical Aids</h2>
+        <p>Including Discovery, Bonitas, Momentum, Medshield, and many more</p>
+
+        <div class="medical-grid">
+
+            <div class="medical-card">
+                <img src="daneline-images/discovery.png" alt="Discovery Medical Aid">
+                <h3>Discovery</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/bonitas%203.png" alt="Bonitas Medical Aid">
+                <h3>Bonitas</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/momentum.png" alt="Momentum Medical Aid">
+                <h3>Momentum</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/medshield.jpg" alt="Medshield Medical Aid">
+                <h3>Medshield</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/bankmed.jpg" alt="Bankmed Medical Aid">
+                <h3>Bankmed</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/gems.png" alt="GEMS Medical Aid">
+                <h3>GEMS</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/bestmed.png" alt="Bestmed Medical Aid">
+                <h3>Bestmed</h3>
+            </div>
+
+            <div class="medical-card">
+                <img src="daneline-images/fedhealth (1).png" alt="Fedhealth Medical Aid">
+                <h3>Fedhealth</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="section-header fade-in">
+            <h2>Book Your Appointment</h2>
+            <p>Schedule your eye examination or consultation. We'll confirm your booking via WhatsApp.</p>
+        </div>
+        
+        <div class="booking-container fade-in">
+            <form class="booking-form" id="bookingForm" onsubmit="handleBooking(event)">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="064 530 6050" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Required *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="eye-test">Comprehensive Eye Test (R300)</option>
+                            <option value="consultation">Frame Consultation</option>
+                            <option value="contact-lenses">Contact Lens Fitting</option>
+                            <option value="drivers-test">Driver's License Eye Test</option>
+                            <option value="follow-up">Follow-up Appointment</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Preferred Location *</label>
+                        <select id="location" name="location" required>
+                            <option value="">Select location</option>
+                            <option value="pretoria">101 Du Toit Street, Pretoria</option>
+                            <option value="tembisa">4 Hausa Kingdom, Tlamatlama Section, Tembisa 1632</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date *</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time *</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select time</option>
+                            <option value="08:30">08:30 AM</option>
+                            <option value="09:00">09:00 AM</option>
+                            <option value="09:30">09:30 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="10:30">10:30 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="11:30">11:30 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="14:00">02:00 PM</option>
+                            <option value="14:30">02:30 PM</option>
+                            <option value="15:00">03:00 PM</option>
+                            <option value="15:30">03:30 PM</option>
+                            <option value="16:00">04:00 PM</option>
+                            <option value="16:30">04:30 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Additional Notes</label>
+                        <textarea id="message" name="message" placeholder="Tell us about any specific requirements or concerns..."></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fab fa-whatsapp"></i> Send Booking via WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Bar -->
+    <section class="contact-bar">
+        <div class="contact-container">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                    <h4>Our Locations</h4>
+                    <p>101 Du Toit Street, Pretoria<br>4 Hausa Kingdom, Tlamatlama Section, Tembisa 1632</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:0645306050">064 530 6050</a><br>
+                    <a href="mailto:info@daneline.co.za">info@daneline.co.za</a></p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Friday: 8:30 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div>
+                    <h4>Online</h4>
+                    <p><a href="https://www.danelineopticals.co.za" target="_blank">www.danelineopticals.co.za</a><br>
+                    <a href="https://instagram.com/daneline_opticals" target="_blank">@daneline_opticals</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Daneline Opticals</h3>
+                <p>Your vision is our focus. Providing premium eye care and designer eyewear to the Pretoria and Tembisa communities.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/daneline_opticals" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/danelineopticals" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/27645306050" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#home">Home</a></p>
+                <p><a href="#about">About Us</a></p>
+                <p><a href="#services">Services</a></p>
+                <p><a href="#products">Products</a></p>
+                <p><a href="#booking">Book Now</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <p><a href="#services">Eye Examinations</a></p>
+                <p><a href="#services">Prescription Glasses</a></p>
+                <p><a href="#services">Contact Lenses</a></p>
+                <p><a href="#services">Sunglasses</a></p>
+                <p><a href="#services">Blue Light Glasses</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> 064 530 6050</p>
+                <p><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> info@daneline.co.za</p>
+                <p><i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i> Pretoria & Tembisa</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Daneline Opticals. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--accent-purple);"></i> for better vision</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/27645306050" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            } else {
+                navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.05)';
+            }
+        });
+        function filterProducts(event, category) {
+    const products = document.querySelectorAll('.product-card');
+    const buttons = document.querySelectorAll('.filter-btn');
+
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    products.forEach(product => {
+        const productCategory = product.getAttribute('data-category');
+
+        if (category === 'all' || productCategory === category) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+}
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+        // Product filter
+        function filterProducts(event, category) {
+            const buttons = document.querySelectorAll('.filter-btn');
+            const cards = document.querySelectorAll('.product-card');
+            
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'scale(1)';
+                    }, 10);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'scale(0.8)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+        }
+
+        // Booking form handler
+        function handleBooking(e) {
+            e.preventDefault();
+            
+            const formData = {
+                firstName: document.getElementById('firstName').value,
+                lastName: document.getElementById('lastName').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                service: document.getElementById('service').value,
+                location: document.getElementById('location').value,
+                date: document.getElementById('date').value,
+                time: document.getElementById('time').value,
+                message: document.getElementById('message').value
+            };
+
+            const locationText = formData.location === 'pretoria' 
+                ? '101 Du Toit Street, Pretoria' 
+                : '4 Hausa Kingdom, Tlamatlama Section, Tembisa 1632';
+
+            const serviceText = document.getElementById('service').options[document.getElementById('service').selectedIndex].text;
+
+            const whatsappMessage = `*New Booking Request - Daneline Opticals*%0A%0A` +
+                `*Name:* ${formData.firstName} ${formData.lastName}%0A` +
+                `*Phone:* ${formData.phone}%0A` +
+                `*Email:* ${formData.email || 'Not provided'}%0A%0A` +
+                `*Service:* ${serviceText}%0A` +
+                `*Location:* ${locationText}%0A` +
+                `*Date:* ${formData.date}%0A` +
+                `*Time:* ${formData.time}%0A%0A` +
+                `*Additional Notes:*%0A${formData.message || 'None'}`;
+
+            window.open(`https://wa.me/27645306050?text=${whatsappMessage}`, '_blank');
+            
+            // Reset form
+            document.getElementById('bookingForm').reset();
+            alert('Your booking request has been prepared! Please send it via WhatsApp to complete your appointment.');
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+            navLinks.style.position = 'absolute';
+            navLinks.style.top = '100%';
+            navLinks.style.left = '0';
+            navLinks.style.width = '100%';
+            navLinks.style.background = 'white';
+            navLinks.style.flexDirection = 'column';
+            navLinks.style.padding = '2rem';
+            navLinks.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+        }
+
+        // Set minimum date to today
+        document.getElementById('date').min = new Date().toISOString().split('T')[0];
+    </script>
+</body>
+</html>
